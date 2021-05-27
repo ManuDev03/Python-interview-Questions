@@ -1,13 +1,8 @@
 s = input("enter a string:")
-i = 0
+output_even = s[0: :2]
+output_odd = s[1: : 2]
 print("characters in even index...")
-while i < len(s):
-    print(s[i])
-    i= i+2
-
-i = 1
+print(output_even)
 print("characters in odd index")
-while i < len(s):
-    print(s[i])
-    i = i+2
+print(output_odd)
     
