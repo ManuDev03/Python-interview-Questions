@@ -1,11 +1,9 @@
-s = input("enter a alphanumeric :")
-alphabets = []
-digits = []
-
-for ch in s :
+s = 'a4b3c2'
+output = ''
+for ch in s:
     if ch.isalpha():
-        alphabets.append(ch)
-    else :
-        digits.append(ch)
-output = ''.join(sorted(alphabets) + sorted(digits))
+        x = ch
+    else:
+        d = int(ch)
+        output = output+x*d
 print(output)
